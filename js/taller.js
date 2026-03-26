@@ -17,3 +17,5 @@ let cel = Number(prompt('Dame los grados celcius'));
 let result = (cel *(9/5)) + 32;
 
 console.log(`los grados farenheit son: ${result}`)
+
+
