@@ -1,52 +1,51 @@
-//POR FAVOR COMENTAR Y DESCMENTAR CADA VEZ QUE SE UTILICE O SE PRUEBNE EL EJERCICO
+// POR FAVOR COMENTAR Y DESCOMENTAR CADA VEZ QUE SE UTILICE O SE PRUEBE EL EJERCICIO
 
 // - convertidor a edad canina
 let edad = Number(prompt('Dame la edad'));
 let edadPerruna = 7;
-console.log(`La edad de tu edad canina es: ${edad * edadPerruna}`);
+console.log(`La edad canina es: ${edad * edadPerruna}`);
 
-// - convertidor de pesos a dolares
-let dolar = Number(prompt('cuantos dolares quieres cambiar?'));
+// - convertidor de pesos a dólares
+let dolar = Number(prompt('¿Cuántos dólares quieres cambiar?'));
 const tasa = 3693.19;
-alert('la tasa de cambio a dia de hoy es: 3,693.19 COP');
+alert('La tasa de cambio a día de hoy es: 3,693.19 COP');
 
-console.log(`el total en COP es: ${dolar*tasa}`)
+console.log(`El total en COP es: ${dolar * tasa}`);
 
-// - convertidor de grados celcius a farenheit
-let cel = Number(prompt('Dame los grados celcius'));
-let result = (cel *(9/5)) + 32;
+// - convertidor de grados Celsius a Fahrenheit
+let cel = Number(prompt('Dame los grados Celsius'));
+let result = (cel * (9/5)) + 32;
 
-console.log(`los grados farenheit son: ${result}`)
+console.log(`Los grados Fahrenheit son: ${result}`);
 
-// - calcula el area de un cuadrado 
+// - calcula el área de un cuadrado 
 let altura = Number(prompt('Dame la altura del cuadrado'));
 let base = Number(prompt('Dame la base del cuadrado'));
 
-console.log(`El area del cuadrado es: ${base*altura}`);
+console.log(`El área del cuadrado es: ${base * altura}`);
 
-// - calcular el perimetro de un cuadrado
-let lado = Number(prompt('dame un lado del cuadrado'))
+// - calcular el perímetro de un cuadrado
+let lado = Number(prompt('Dame un lado del cuadrado'));
 
-console.log(`El area del cuadrado es: ${4*lado}`);
+console.log(`El área del cuadrado es: ${4 * lado}`);
 
 // - convertidor de minutos a segundos
-let min = Number(prompt('dame los minutos'));
+let min = Number(prompt('Dame los minutos'));
 
-console.log(`Los segundos son: ${min*60}`)
+console.log(`Los segundos son: ${min * 60}`);
 
 // - convertidor de segundos a minutos
-let seg = Number(prompt('dame los segundos'));
+let seg = Number(prompt('Dame los segundos'));
 
-console.log(`Los minutos son: ${seg/60}`)
+console.log(`Los minutos son: ${seg / 60}`);
 
-// - area de un triangulo
-let baseTri  = Number(prompt('Dame la base del triangulo'))
-let alturaTri = Number(prompt('Dame la altura del triangulo'))
+// - área de un triángulo
+let baseTri  = Number(prompt('Dame la base del triángulo'));
+let alturaTri = Number(prompt('Dame la altura del triángulo'));
 
-console.log(`El area del triangulo es: ${(baseTri*alturaTri)/2}`)
+console.log(`El área del triángulo es: ${(baseTri * alturaTri) / 2}`);
 
-// - convertidor de milimetros a centimetros
-let milimetros = Number(prompt('Dame los milimetros:'))
+// - convertidor de milímetros a centímetros
+let milimetros = Number(prompt('Dame los milímetros:'));
 
-console.log(`Los centimetros son: ${milimetros/10}`)
-
+console.log(`Los centímetros son: ${milimetros / 10}`);
