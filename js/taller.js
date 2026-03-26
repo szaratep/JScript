@@ -24,4 +24,9 @@ let base = Number(prompt('Dame la base del cuadrado'));
 
 console.log(`El area del cuadrado es: ${base*altura}`);
 
+// - calcular el perimetro de un cuadrado
+let lado = Number(prompt('dame un lado del cuadrado'))
+
+console.log(`El area del cuadrado es: ${4*lado}`);
+
 
