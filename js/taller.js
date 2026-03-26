@@ -18,6 +18,11 @@ let result = (cel * (9/5)) + 32;
 
 console.log(`Los grados Fahrenheit son: ${result}`);
 
+let far = Number(prompt('Dame los grados Fahrenheit'));
+result = ((far -32)*(5/9));
+
+console.log(`Los grados Fahrenheit son: ${result}`);
+
 // - calcula el área de un cuadrado 
 let altura = Number(prompt('Dame la altura del cuadrado'));
 let base = Number(prompt('Dame la base del cuadrado'));
@@ -49,3 +54,7 @@ console.log(`El área del triángulo es: ${(baseTri * alturaTri) / 2}`);
 let milimetros = Number(prompt('Dame los milímetros:'));
 
 console.log(`Los centímetros son: ${milimetros / 10}`);
+
+let centimetros = Number(prompt('Dame los centimetros:'));
+
+console.log(`Los milimetros son: ${milimetros * 10}`);
