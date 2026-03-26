@@ -34,5 +34,8 @@ let min = Number(prompt('dame los minutos'));
 
 console.log(`Los segundos son: ${min*60}`)
 
+// - convertidor de segundos a minutos
+let seg = Number(prompt('dame los minutos'));
 
+console.log(`Los minutos son: ${seg/60}`)
 
