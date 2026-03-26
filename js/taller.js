@@ -18,4 +18,10 @@ let result = (cel *(9/5)) + 32;
 
 console.log(`los grados farenheit son: ${result}`)
 
+// - calcula el area de un cuadrado 
+let altura = Number(prompt('Dame la altura del cuadrado'));
+let base = Number(prompt('Dame la base del cuadrado'));
+
+console.log(`El area del cuadrado es: ${base*altura}`);
+
 
