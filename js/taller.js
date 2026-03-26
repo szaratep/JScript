@@ -39,3 +39,9 @@ let seg = Number(prompt('dame los minutos'));
 
 console.log(`Los minutos son: ${seg/60}`)
 
+// - area de un triangulo
+let baseTri  = Number(prompt('Dame la base del triangulo'))
+let alturaTri = Number(prompt('Dame la altura del triangulo'))
+
+console.log(`El area del triangulo es: ${(baseTri*alturaTri)/2}`)
+
