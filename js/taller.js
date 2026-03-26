@@ -29,4 +29,10 @@ let lado = Number(prompt('dame un lado del cuadrado'))
 
 console.log(`El area del cuadrado es: ${4*lado}`);
 
+// - convertidor de minutos a segundos
+let min = Number(prompt('dame los minutos'));
+
+console.log(`Los segundos son: ${min*60}`)
+
+
 
