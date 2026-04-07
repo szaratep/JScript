@@ -21,14 +21,16 @@ console.log(productos);
 let notas = [];
 let cont = 0;
 let prom = 0;
+let i = 0;
 let cant = Number(prompt("¿Cuantas notas quieres agregar?"));
 
 while(cont < cant){
-    cont++
-    let pro = Number(prompt(`Dame la nota #${cont}`));
+    i++
+    let pro = Number(prompt(`Dame la nota #${i}`));
     notas.push(pro);
-    prom = prom + pro;
+    prom = prom + notas[cont];
+    cont++
 }
 
 console.log(notas);
-console.log(prom/notas.length);
+console.log("El promedio es:" , prom/notas.length);
