@@ -1,11 +1,13 @@
 let productos = []
 
-let pro1 = prompt("Que producto quieres agregar #1?");
-let pro2 = prompt("Que producto quieres agregar #2?");
-let pro3 = prompt("Que producto quieres agregar #3?");
+let cont = 0;
+let cant = prompt("¿Cuantos productos quieres agregar?");
 
-productos.push(pro1);
-productos.push(pro2);
-productos.push(pro3);
+while(cont < cant){
+    cont++
+    let pro = prompt(`Que producto quieres agregar #${cont}?`);
+    productos.push(pro);
+}
+
 
 console.log(productos);
