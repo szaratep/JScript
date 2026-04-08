@@ -132,6 +132,7 @@ let empate = 0;
 
 for(let i=0; i < 3; i++){
     let user = prompt('Escoge una entre: piedra papel o tijera')
+    
     resultUser.push(user);
     let pc = computer;
     resultPc.push(pc)
