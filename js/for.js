@@ -21,10 +21,12 @@ let rango = Number(prompt('Dime hasta que numero quieres multiplicar?'))
 
 if (tabla < 0 || rango < 0) {
     console.log('recuerda que los valores son positivos')
-} else if(tabla >= 11){
+} else if (tabla >= 11) {
     console.log('recuerda que las tablan pueden ir hasta el 10');
+} else if (rango == 0) {
+    console.log('Coloca un dijito mayor a 0')
 } else {
-        console.log(`la tabla del: ${tabla}, hasta el ${rango}
+    console.log(`la tabla del: ${tabla}, hasta el ${rango}
 ----------------------------------------`)
     for (let i = 1; i < rango + 1; i++) {
         console.log(`${tabla} * ${i} = ${i * tabla}`)
