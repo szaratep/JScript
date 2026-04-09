@@ -52,14 +52,14 @@ for(let i = 0; i < estudiantes.length; i++){
 
     if (promedio < 3){
         aumento = estudiantes[i].precioSemestre * 0.2
-        console.log(`El estudiante: ${name} perdio con una nota de: ${promedio}`)
-        console.log(`Tiene que repetir el semestre ${estudiantes[i].semestre}, con un valor del 20% adicional, es decir: ${estudiantes[i].precioSemestre + aumento} \n`)
+        console.log(`El estudiante: ${name} perdio con una nota de: ${Math.trunc(promedio)}`)
+        console.log(`Tiene que repetir el semestre ${estudiantes[i].semestre}, con un valor del 20% adicional, es decir: ${Math.trunc(estudiantes[i].precioSemestre + aumento)} \n`)
     } else if(promedio <= 5 && promedio >= 3.5){
         aumento = estudiantes[i].precioSemestre * 0.2
-        console.log(`El estudiante: ${name} paso con una promedio de: ${promedio}`)
-        console.log(`Pasa a el semestre ${estudiantes[i].semestre+1}, con un descuento del 20%, es decir: ${estudiantes[i].precioSemestre - aumento} \n`)
+        console.log(`El estudiante: ${name} paso con una promedio de: ${Math.trunc(promedio)}`)
+        console.log(`Pasa a el semestre ${estudiantes[i].semestre+1}, con un descuento del 20%, es decir: ${Math.trunc(estudiantes[i].precioSemestre - aumento)} \n`)
     }else{
-        console.log(`El estudiante: ${name} tiene que nivelar con una promedio de: ${promedio}`)
+        console.log(`El estudiante: ${name} tiene que nivelar con una promedio de: ${Math.trunc(promedio)}`)
         console.log(`Tiene que nivelar el semestre ${estudiantes[i].semestre}, con un precio de: ${estudiantes[i].precioSemestre} \n`)
     }
 }
