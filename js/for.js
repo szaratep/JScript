@@ -87,14 +87,14 @@ for(let i = 0; i < ar.length ; i++){
         min = ar[i].length
         palMin = ar[i]
     }
+
+    revez.unshift(ar[i])
+
+
 }
 
 console.log(`La palabra mas Larga es: ${palMax}`)
 console.log(`La palabra mas corta es: ${palMin}`)
-
-for(let i = ar.length - 1; i >= 0; i--){
-    revez.push(ar[i]);
-}
 
 console.log(`array original: ${ar}`)
 console.log(`array original: ${revez}`)
