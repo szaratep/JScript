@@ -21,8 +21,6 @@ if (precio < 0) {
 } else {
     console.log(precio -= precio * 0.2);
 };
-*/
-
 
 alert('hola, puedes convertir de km a m y viceversa');
 let tipo = prompt('Que quieres convertir');
@@ -45,3 +43,13 @@ if (tipo == ''){
     }
     
 };
+*/
+
+import { numeros } from "./data.js";
+import { multipli, parOimpar, saludos } from "./functions.js";
+
+
+//-------------- Modular - Funciones -----------------
+multipli(numeros)
+saludos(numeros)
+parOimpar(numeros)
